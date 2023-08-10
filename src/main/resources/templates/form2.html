@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post">
+  <input type="text" placeholder="Imie" th:field="*{modelObject.name}">
+  <input type="text" placeholder="Nazwisko" th:field="*{modelObject.surname}">
+  <input type="text" placeholder="Wiek" th:field="*{modelObject.age}">
+  <input type="text" placeholder="Miasto" th:field="*{modelObject.city}">
+  <input type="text" placeholder="Ulica" th:field="*{modelObject.street}">
+  <input type="text" placeholder="Nr domu" th:field="*{modelObject.no}">
+  <input type="submit" value="OK">
+</form>
+</body>
+</html>
